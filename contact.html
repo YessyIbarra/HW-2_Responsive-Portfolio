@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--Added a favicon-->  
+<link rel="shortcut icon" type="image/png" href= "./images/flower.png">
+<head>
+    <title>Yesenia Ibarra</title>
+    <meta charset="UTF-8">
+
+    <!--Meta Tag is REQUIRED for HW -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Boot strap CSS | locally saved-->
+    <link rel="stylsheet" type="text/css" href="./css/portfolio.css">
+    <link rel="stylesheet" href="bootstrap-4.5.0-dist/css/bootstrap.min.css">
+    
+</head>
+
+<body>
+    <!--Navbar-->
+<nav class="navbar navbar-expand-sm" style="background-color:#d3a8ae;">
+    <span class="navbar-brand mb-1 mx-5 h1" style="color: white;">Yesenia Ibarra</span>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" 
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!--Here I am creating a list I want to see in the navbar , I also need to add my links here-->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html" style="color: white;" class="">About Me</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="portfolio.html" style="color:white;">Portfolio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contact.html" style="color: white;">Contact</a>
+                  </li>
+                </ul>
+        </div>
+</nav>
+  <!--Ending my Nav!!-->
+<!--Contact Me Form-->
+<form>
+<div class="container">
+    <h1 class="text-center p-5">Contact Me</h1>
+    <div class="row">
+        <div class="col-md-12">
+            <div id="contact" method="post" class="form" role="form">
+                <div class="row">
+                    <div class="col-md-6 form-group">
+                        <label for="name">Name</label>
+                        <input  id="name" name="name" type="text" class="form-control" required>
+                    </div>
+                    <div class="col-md-6 form-group">
+                        <label for="email">Email</label>
+                        <input id="email" name="email" type="text" class="form-control"  required>
+                    </div>
+                    <div class="col-md-12 form-group">
+                        <label for="message">Message</label>
+                        <textarea class="form-control" id="message" name="message" rows="8"></textarea>
+                    </div>
+                    <div class="row">
+                        <div class="my-3 col-md-12 form-group">
+                             <button class="btn btn-secondary" type="submit">Submit</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</form>  
+</body>
+</html>

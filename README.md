@@ -2,8 +2,7 @@
 
 Bootstrap CSS Framework were used to create this mobile responsive portfolio.
 
+![](images/screenshot.png)
 
-Screenshot of Assignment goes here: 
-
-Link to deployed assignment goes here: 
+https://yessyibarra.github.io/Portfolio-github.io/
 

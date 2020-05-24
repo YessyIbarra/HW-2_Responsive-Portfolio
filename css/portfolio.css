@@ -5,10 +5,3 @@ body {
     -o-background-size: cover;
     background-size: cover;
   }
-
-  #face i {
-    color: pink; 
-    font-size: 50px;
-    margin: 10px;
-    padding-top: 10PX;
-}
